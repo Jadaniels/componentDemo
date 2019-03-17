@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+  <ion-searchbar showCancelButton cancelButtonText="Custom Cancel"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-img src="/assets/Germany1.jpg"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Introduction to Ionic</ion-card-subtitle>
+        <ion-card-title>A few examples of what Ionic can do.</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>This is my main landing page.  It contains a picture of the castle I visited in Germany.</p>
+        <p>On the left side there is a menu bar.</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-card-content>
+        <p>Examples of Icons</p>
+        <p>There are many different icons available.</p>
+      </ion-card-content>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" name="book"></ion-icon>
+        <ion-label>This is an example of a book icon.</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" name="build"></ion-icon>
+        <ion-label>This icon can be used as a build icon or maintenance.</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" name="grid"></ion-icon>
+        <ion-label>This icon is listed as a grid, but I think it looks like a pretzel.</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+        <ion-label>I think this icon looks like a oil can.</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>
